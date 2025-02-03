@@ -11,7 +11,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 const Experience = () => {
   return (
-    <section id='experience'>
+    <section id='experience' className='mb-28 scroll-mt-28'>
       <SectionHeading heading='Experience' />
       <VerticalTimeline lineColor=''>
         {experiencesData.map((experience, index) => (

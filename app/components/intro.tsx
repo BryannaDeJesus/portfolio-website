@@ -6,7 +6,10 @@ import { MdOutlineMail } from 'react-icons/md';
 
 const Intro = () => {
   return (
-    <section className='mb-28 max-w-[50rem] text-center sm:mb-0'>
+    <section
+      id='about'
+      className='mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-28'
+    >
       <div className='flex items-center justify-center'>
         <div>
           <Image

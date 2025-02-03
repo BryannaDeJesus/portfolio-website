@@ -4,7 +4,7 @@ import fflowImg from '../public/create-components.def5e5d1.gif';
 import { LuGraduationCap } from 'react-icons/lu';
 import { TbBriefcase2 } from 'react-icons/tb';
 
-export const links = [
+export const navLinks = [
   {
     name: 'About',
     hash: '#about',
@@ -20,10 +20,6 @@ export const links = [
   {
     name: 'Projects',
     hash: '#projects',
-  },
-  {
-    name: 'Contact',
-    hash: '#contact',
   },
 ] as const;
 
@@ -116,3 +112,31 @@ export const projects = [
     links: [],
   },
 ] as const;
+
+export const skillsData = {
+  technologies: [
+    'JavaScript',
+    'HTML',
+    'CSS',
+    'React.js',
+    'Node.js',
+    'Express.js',
+    'MongoDB',
+    'Jest',
+    'React Testing Library',
+    'Tailwind',
+    'LaunchDarkly',
+    'Redux Toolkit',
+    'Webpack',
+  ],
+  skills: [
+    'Agile Methodology',
+    'Jira',
+    'Unit Testing',
+    'RESTful APIs',
+    'Version Control',
+    'Documentation',
+    'CI/CD',
+    'User Acceptance Testing',
+  ],
+} as const;
