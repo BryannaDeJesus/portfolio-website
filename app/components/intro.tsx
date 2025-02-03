@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 import { BsLinkedin } from 'react-icons/bs';
 import { FaGithubSquare } from 'react-icons/fa';
 import { HiDownload } from 'react-icons/hi';
@@ -27,12 +26,13 @@ const Intro = () => {
         with <span className='font-bold'>3 years</span> of experience.
       </p>
       <div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'>
-        <Link
-          href='#contact'
+        <a
+          href='mailto:bryanna.dejesus@gmail.com'
+          target='_blank'
           className='bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 hover:bg-gray-800 transition'
         >
           <MdOutlineMail /> bryanna.dejesus@gmail.com
-        </Link>
+        </a>
         <a
           href='/DeJesusBryannaResume.pdf'
           download
