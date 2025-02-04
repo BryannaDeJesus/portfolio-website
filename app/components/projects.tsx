@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const Projects = () => {
   return (
-    <section id='projects' className='scroll-mt-28'>
+    <section id='projects' className='scroll-mt-28 mb-20'>
       <SectionHeading heading='projects' />
       <div>
         {projects.map((project, index) => (
