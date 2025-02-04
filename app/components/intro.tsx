@@ -26,16 +26,18 @@ const Intro = () => {
       <p className='mb-10 mt-4 px-4 text-xl font-medium !leading-[1.5] sm:text-2xl'>
         Hi, <span className='font-bold'>I&apos;m Bryanna. </span>
         <br />
-        <br /> I&apos;m a{' '}
-        <span className='font-bold'>full-stack developer </span>based in NYC
-        with <span className='font-bold'>3 years</span> of experience. <br /> My
-        experience is primarily with{' '}
+        I&apos;m a <span className='font-bold'>full-stack developer </span>based
+        in NYC with <span className='font-bold'>3 years</span> of experience.{' '}
+        <br /> My experience is primarily with{' '}
         <span className='underline'>JavaScript</span>,{' '}
         <span className='underline'>React.js</span>, and{' '}
         <span className='underline'>Node.js</span>, building innovative features
         in collaboration with product teams. I have great attention to detail,
         enjoy problem solving, and love to learn new technologies in my free
         time.
+        <br />
+        <br />
+        Feel free to connect with me via email, LinkedIn, and GitHub below!
       </p>
       <div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'>
         <a
