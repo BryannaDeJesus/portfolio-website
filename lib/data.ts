@@ -1,6 +1,5 @@
 import React from 'react';
 import fflowImg from '../public/create-components.def5e5d1.gif';
-// import mmImg from '../public/massmutual_logo.png';
 import { LuGraduationCap } from 'react-icons/lu';
 import { TbBriefcase2 } from 'react-icons/tb';
 
@@ -40,7 +39,6 @@ export const experiencesData = [
       'Leveraged LaunchDarkly to allow progressive release of features.',
     ],
     date: 'May 2022 - Sept 2024',
-    // image: mmImg,
     icon: React.createElement(TbBriefcase2),
   },
   {
@@ -57,7 +55,6 @@ export const experiencesData = [
       'Testing & Development best practices',
     ],
     date: 'Nov 2021 - Feb 2022',
-    // image: mmImg,
     icon: React.createElement(LuGraduationCap),
   },
   {
@@ -68,7 +65,6 @@ export const experiencesData = [
       'After obtaining my graduate degree, I worked in the field of reproductive medicine for 2 years before deciding I wanted to pursue a career in software development.',
     duties: [],
     date: '2017 - 2019',
-    // image: mmImg,
     icon: React.createElement(LuGraduationCap),
   },
   {
@@ -78,7 +74,6 @@ export const experiencesData = [
     description: '',
     duties: [],
     date: '2013 - 2017',
-    // image: mmImg,
     icon: React.createElement(LuGraduationCap),
   },
 ] as const;
