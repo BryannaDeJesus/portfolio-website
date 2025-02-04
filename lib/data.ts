@@ -87,6 +87,7 @@ export const projects = [
     technologies: [
       'TypeScript',
       'React.js',
+      'Next.js',
       'Node.js',
       'Express.js',
       'GraphQL',
@@ -140,6 +141,7 @@ export const skillsData = {
     'HTML',
     'CSS',
     'React.js',
+    'Next.js',
     'Node.js',
     'Express.js',
     'MongoDB',
