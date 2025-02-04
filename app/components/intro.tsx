@@ -8,7 +8,7 @@ const Intro = () => {
   return (
     <section
       id='about'
-      className='mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-28'
+      className='mb-28 max-w-[50rem] text-center sm:mb-20 scroll-mt-28 '
     >
       <div className='flex items-center justify-center'>
         <div>
@@ -24,9 +24,18 @@ const Intro = () => {
         </div>
       </div>
       <p className='mb-10 mt-4 px-4 text-xl font-medium !leading-[1.5] sm:text-2xl'>
-        <span className='font-bold'>Hi, I&apos;m Bryanna. </span>I&apos;m a{' '}
+        Hi, <span className='font-bold'>I&apos;m Bryanna. </span>
+        <br />
+        <br /> I&apos;m a{' '}
         <span className='font-bold'>full-stack developer </span>based in NYC
-        with <span className='font-bold'>3 years</span> of experience.
+        with <span className='font-bold'>3 years</span> of experience. <br /> My
+        experience is primarily with{' '}
+        <span className='underline'>JavaScript</span>,{' '}
+        <span className='underline'>React.js</span>, and{' '}
+        <span className='underline'>Node.js</span>, building innovative features
+        in collaboration with product teams. I have great attention to detail,
+        enjoy problem solving, and love to learn new technologies in my free
+        time.
       </p>
       <div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'>
         <a

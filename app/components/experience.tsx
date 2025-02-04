@@ -12,7 +12,7 @@ import 'react-vertical-timeline-component/style.min.css';
 const Experience = () => {
   return (
     <section id='experience' className='mb-28 scroll-mt-28'>
-      <SectionHeading heading='Experience' />
+      <SectionHeading heading='Experience & Education' />
       <VerticalTimeline lineColor=''>
         {experiencesData.map((experience, index) => (
           <React.Fragment key={index}>
@@ -36,6 +36,13 @@ const Experience = () => {
               <p className='!mt-1 !font-normal text-gray-700'>
                 {experience.description}
               </p>
+              <ul className='mt-2 list-disc !font-normal text-gray-700'>
+                {experience.duties.map((duty, index) => (
+                  <li className='mt-1 ml-5' key={index}>
+                    {duty}
+                  </li>
+                ))}
+              </ul>
             </VerticalTimelineElement>
           </React.Fragment>
         ))}
