@@ -1,7 +1,8 @@
 import React from 'react';
-import fflowImg from '../public/create-components.def5e5d1.gif';
+import fflowImg from '../public/fflow.gif';
 import { LuGraduationCap } from 'react-icons/lu';
 import { TbBriefcase2 } from 'react-icons/tb';
+import { FaGithubSquare } from 'react-icons/fa';
 
 export const navLinks = [
   {
@@ -80,17 +81,33 @@ export const experiencesData = [
 
 export const projects = [
   {
-    title: 'PolPad',
+    title: 'PolPad (work in progress)',
     description:
-      'description of project description of project description of project',
-    technologies: ['react', 'node'],
-    image: fflowImg,
+      'A web based application for an auto body business to manage their customers and repairs digitally.',
+    technologies: [
+      'TypeScript',
+      'React.js',
+      'Node.js',
+      'Express.js',
+      'GraphQL',
+      'MongoDB',
+    ],
+    image: '',
     links: [],
+    inProgress: true,
+  },
+  {
+    title: 'Recipe Finder',
+    description: 'CRUD app to search, save, and delete recipes.',
+    technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
+    image: '',
+    links: [],
+    inProgress: false,
   },
   {
     title: 'fflow',
     description:
-      'Open source tool for creating React applications using drag and drop UI',
+      'Open source tool for creating React applications using drag and drop UI.',
     technologies: [
       'React.js',
       'Electron',
@@ -101,16 +118,19 @@ export const projects = [
     ],
     image: fflowImg,
     links: [
-      'https://github.com/oslabs-beta/fflow?tab=readme-ov-file#built-with',
-      'https://fflow.dev/',
+      { url: 'https://fflow.dev/', type: 'fflow.dev', linkIcon: '' },
+      {
+        url: 'https://github.com/oslabs-beta/fflow?tab=readme-ov-file#about',
+        type: 'GitHub Repo',
+        linkIcon: React.createElement(FaGithubSquare),
+      },
+      {
+        url: 'https://jpino831.medium.com/ease-into-your-next-react-app-with-fflow-f60c5a899817',
+        type: 'Medium Article',
+        linkIcon: React.createElement(FaGithubSquare),
+      },
     ],
-  },
-  {
-    title: 'Recipe Finder',
-    description: 'description of project',
-    technologies: ['react', 'node'],
-    image: fflowImg,
-    links: [],
+    inProgress: false,
   },
 ] as const;
 
